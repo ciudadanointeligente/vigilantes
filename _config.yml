@@ -2,8 +2,8 @@
 title: Vigilantes
 email: prensa@ciudadanointeligente.org
 description: 'Vigilantes.'
-baseurl: '//observatorioanticorrupcion.cl/' # the subpath of your site, e.g. /blog/
-url: 'http://observatorioanticorrupcion.cl' # the base hostname & protocol for your site
+baseurl: '//ciudadanointeligente.org/vigilantes/' # the subpath of your site, e.g. /blog/
+url: 'https://ciudadanointeligente.org/vigilantes' # the base hostname & protocol for your site
 analytics: 'UA-41822715-9' # google analytics tracking code
 twitter_username: ciudadanoi
 launched: true
