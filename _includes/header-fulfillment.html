@@ -1,0 +1,30 @@
+<section id="header-fulfillment" class="container">
+  <div class="row">
+    <div class="col-md-8">
+      <h2>Cumplimiento de las propuestas</h2>
+      <p>
+     El Observatorio Anticorrupción busca informar -de manera fácil y oportuna- el grado de avance de las recomendaciones del Consejo Asesor Presidencial, poniendo a disposición de toda la ciudadanía lo que se está haciendo desde los órganos del Estado para avanzar hacia un país más transparente y con una mejor democracia.
+      </p>
+    </div>
+    <div class="col-md-4">
+      <div class="ct-chart-fulfillment"></div>
+      <script>
+      $(document).ready(function(){
+            new Chartist.Pie('.ct-chart-fulfillment', {
+              labels: ['25%'],
+              series: [25, 75]
+            }, {
+              donut: true,
+              donutWidth: 15,
+              startAngle: 0,
+              total: 100,
+              showLabel: true,
+              labelOffset: -85,
+              width: 200,
+              height: 200
+            });
+          });
+      </script>
+    </div>
+  </div>
+</section>

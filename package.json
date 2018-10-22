@@ -1,0 +1,27 @@
+{
+  "name": "vigilantes",
+  "version": "0.0.0",
+  "description": "Vigilantes",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ciudadanointeligente/vigilantes.git"
+  },
+  "author": "",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/ciudadanointeligente/vigilantes.git/issues"
+  },
+  "dependencies": {
+    "grunt-git": "~0.3.7",
+    "grunt-http": "^2.3.1",
+    "request": "^2.87.0",
+    "tabletop": "^1.5.2"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.3"
+  }
+}
