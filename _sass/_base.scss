@@ -20,8 +20,20 @@ p {
   background: initial;
 }
 
+.promess {
+  p {
+    font-size: 14px;
+  }
+}
+
 a {
   color: $yellow;
+}
+
+.promess {
+  a {
+    color: #000;
+  }
 }
 
 a:hover {
@@ -40,10 +52,13 @@ section {
   font-weight: 900;
 }
 
-.container{
-  width: 100%;
-  padding-left: 80px;
-  padding-right: 80px;
+
+@media screen and (min-width: 800px){
+  .container{
+    width: 100%;
+    padding-left: 80px;
+    padding-right: 80px;
+  }
 }
 
 /**
@@ -188,11 +203,10 @@ section {
 
 
 .notabajada{
-  text-transform: uppercase;
   text-align: center;
-  font-size: 9px;
+  font-size: 20px;
   font-weight: 600;
-  margin-top: 6px;
+  margin-top: 58px;
 }
 
 .avancebajada{
@@ -255,9 +269,9 @@ h4 {
 }
 
 h5 {
-  font-size: 14px;
+  font-size: 17px;
   font-weight: 900;
-  text-transform: uppercase;
+  color: #000;
 }
 
 .bajada {
@@ -276,10 +290,9 @@ h5 {
 
 .small {
     font-size: 11px;
-    text-transform: uppercase;
-    font-weight: 600;
-    color: $grey-light;
+    color: #000;
 }
+
 
 small {
     font-size: 11px;
@@ -688,8 +701,8 @@ background-color: rgba(255, 255, 255, 0.7);
 #fulfillment .notatotal{
     text-align: center;
     font-family: 'Karla';
-    margin-top: 10px;
-    margin-bottom: 100px;
+    margin-top: 57px;
+    margin-bottom: 40px;
     font-size: 20px;
     font-weight: 600;
 }
@@ -705,9 +718,9 @@ background-color: rgba(255, 255, 255, 0.7);
 
 
 h5 {
-  color: $blue-light;
+  color: #000;
   a, a:hover {
-    color: $blue-light;
+    color: #000;
   }
 }
 
@@ -721,6 +734,8 @@ h5 {
 
 .percentage {
   font-size: 24px;
+  color: $yellow;
+  font-weight: bold;
 }
 
 #fulfillment .list-inline>li {
@@ -732,18 +747,18 @@ h5 {
 }
 
 .progress {
-  height: 15px;
+  height: 25px;
   margin: 7px 0 0;
   background-color: #FFFFFF;
-  border-radius: 15px;
+  border-radius: 25px;
   -webkit-box-shadow: none;
   box-shadow: none;
-  width: 70%;
+  width: 100%;
   margin-top: 18px;
 }
 
 .progress-bar {
-  background-color: $blue-light;
+  background-color: $yellow;
   border-radius: 10px;
   -webkit-box-shadow: none;
   box-shadow: none;
@@ -763,7 +778,7 @@ i.fa.fa-link{
 }
 
 .panel-default>.panel-heading {
-    color: $grey;
+    color: #000;
     background-color: $grey-light;
     border-color: $grey-light;
 }
@@ -786,10 +801,10 @@ i.fa.fa-link{
     border-left: 1px solid $grey-light;
 }
 
-.color-high{
-  border-left: 5px solid;
-  border-color: $color-high;
-}
+// .color-high{
+//   border-left: 5px solid;
+//   border-color: $color-high;
+// }
 
 .color-medium{
   border-left: 5px solid;
@@ -802,13 +817,13 @@ i.fa.fa-link{
 }
 
 .panel.panel-deafult.leyenda{
-  background-color: #F7F7F7;
+  background-color: #E3E3E3;
   padding: 13px 15px 4px 15px;
   margin-top: 10px;
   margin-bottom: 5px;
-  text-transform: uppercase;
   font-size: 10px;
   font-weight: 700;
+  border-radius: 0px;
 }
 
 .panel.panel-deafult.leyenda-movil{
@@ -816,7 +831,6 @@ i.fa.fa-link{
   padding: 13px 15px 4px 15px;
   margin-top: 10px;
   margin-bottom: 5px;
-  text-transform: uppercase;
   font-size: 10px;
   font-weight: 700;
   display: none;
@@ -848,7 +862,7 @@ i.fa.fa-link{
 }
 
 .fulfillment-box {
-  padding-top: 70px;
+  // padding-top: 70px;
 
   /*article.hideme {
     max-height: 400px;
@@ -930,7 +944,8 @@ footer .col-md-4{
 }
 
 #fulfillment h1{
-  margin-top: 70px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 @media screen and (max-width: 1200px) {
