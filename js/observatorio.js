@@ -89,8 +89,8 @@ app.controller('PromissesController', ["$scope", "$http", "$timeout", "$filter",
             $('.ct-chart-' + d.id).addClass(classname);
           }
           new Chartist.Pie('.ct-chart-' + d.id, {
-            labels: label,
-            series: [parseInt(d.fulfillment_macro_area)]
+            labels: [label, " "],
+            series: [100, parseInt(d.fulfillment_macro_area)]
           }, {
             donut: true,
             total: 100,

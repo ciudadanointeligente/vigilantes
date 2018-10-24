@@ -143,8 +143,8 @@ section {
 
 .ct-label {
   fill: #646975;
-  color: #646975;
-  font-size: 2.5rem;
+  color: #000;
+  font-size: 40px;
   line-height: 1;
   font-weight: 600;
 }
@@ -172,7 +172,7 @@ section {
 
 
 .ct-series-a .ct-slice-donut {
-  stroke: $grey-light;
+  stroke: #FFF;
 }
 
 .ct-series-b .ct-slice-donut {
@@ -196,12 +196,12 @@ section {
 }
 
 .avancebajada{
-    text-transform: uppercase;
-    text-align: center;
-    margin-top: -66px;
-    margin-bottom: 50px;
-    font-size: 9px;
-    font-weight: 600;
+  text-align: center;
+  margin-top: -5px;
+  margin-bottom: 50px;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Karla';
 }
 
 /*cumplimientos*/
@@ -409,7 +409,6 @@ p.text-center.note{
 }
 
 .chart-total .textototal{
-    text-transform: uppercase;
     text-align: center;
     margin-top: -17px;
     margin-bottom: -171px;
@@ -501,7 +500,7 @@ p.text-center.note{
   cursor: pointer;
   padding: 0.5em 1em .4em;
   border-radius: 28px;
-  font-size: 18px;
+  font-size: 17px;
 }
 
 .label-default {
@@ -511,6 +510,10 @@ p.text-center.note{
 
 .label-primary {
   background-color: $yellow;
+}
+
+.label-li {
+  padding: 10px;
 }
 
 /**
@@ -670,24 +673,24 @@ background-color: rgba(255, 255, 255, 0.7);
 }
 
 #fulfillment .chart-total .textototal{
-    text-transform: uppercase;
     text-align: center;
-    margin-top: 53px;
-    margin-bottom: -166px;
-    font-size: 9px;
+    font-family: 'Karla';
+    margin-top: 150px;
+    margin-bottom: -182px;
+    font-size: 20px;
     font-weight: 600;
 }
 
 #fulfillment .chart-total .ct-series-a .ct-slice-donut{
-  stroke: $yellow;
+  stroke: #fff;
 }
 
 #fulfillment .notatotal{
-    text-transform: uppercase;
     text-align: center;
+    font-family: 'Karla';
     margin-top: 10px;
     margin-bottom: 100px;
-    font-size: 9px;
+    font-size: 20px;
     font-weight: 600;
 }
 
@@ -831,17 +834,17 @@ i.fa.fa-link{
 }
 
 #fulfillment .ct-series-a .ct-slice-donut {
-  stroke: $yellow;
+  stroke: $grey-light;
 }
 
 #fulfillment .ct-label {
-  fill: $grey;
-  font-weight: 900;
+  font-size: 40px;
+  fill: #000;
   margin-top: 53px;
 }
 
 #fulfillment .ct-series-b .ct-slice-donut {
-  stroke: $grey-light;
+  stroke: $yellow;
 }
 
 .fulfillment-box {
@@ -1009,7 +1012,7 @@ footer .col-md-4{
 
 @media screen and (max-width: 980px) {
   .ct-label {
-    font-size: 3rem;
+    font-size: 4rem;
   }
 
   footer {

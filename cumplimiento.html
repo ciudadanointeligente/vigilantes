@@ -11,45 +11,43 @@ layout: page
         </div>
       </div>
       <div class="col-md-4 chart-total">
-          <p class="totalbajada">de avance</p>
-          <p class="textototal">Del total de las propuestas</p>
-        </div>
-        <div class="col-md-3">
-            <div class="text-center ct-label">{{site.final_mark}}</div>
-          <p class="notatotal">Nota de calidad</p>
-        </div>
-
-        <script>
+        <p class="textototal">de avance</p>
+      </div>
+      <div class="col-md-3">
+          <div class="text-center ct-label">{{site.final_mark}}</div>
+        <p class="notatotal">Nota de calidad</p>
+      </div>
+      <script>
         var cumplimiento = {{ site.final_percentage }};
         $(function() {
-        new Chartist.Pie('.chart-total', {
-          labels: [cumplimiento + "%"],
-          series: [parseInt(cumplimiento)]
-        }, {
-          donut: true,
-          total:100,
-          donutWidth: 15,
-          startAngle: 0,
-          showLabel: true,
-          labelOffset: -60,
-        }, [
-          ['screen and (max-width: 1199px)', {
-            labelOffset: -68
-          }],
-          ['screen and (max-width: 991px)', {
-            labelOffset: -70
-          }],
-          ['screen and (max-width: 320px)', {
-            labelOffset: -60
-          }]
-        ]);
+          new Chartist.Pie('.chart-total', {
+            labels: [cumplimiento + "%"," "],
+            series: [100,parseInt(cumplimiento)]
+          }, {
+            donut: true,
+            total:100,
+            donutWidth: 20,
+            startAngle: 0,
+            showLabel: true,
+            labelOffset: -60,
+          }, [
+            ['screen and (max-width: 1199px)', {
+              labelOffset: -68
+            }],
+            ['screen and (max-width: 991px)', {
+              labelOffset: -70
+            }],
+            ['screen and (max-width: 320px)', {
+              labelOffset: -60
+            }]
+          ]);
         });
-        </script>
+      </script>
     </div>
     <div class="container" ng-controller="PromissesController">
       <!--[[promisses]]-->
       <ul class="list-inline text-center macroareas">
-        <li ng-repeat="ma in macro_area"><a href="#fulfillment-[[$index]]"><span class="label label-default">[[ma]]</span></a></li>
+        <li ng-repeat="ma in macro_area" class="label-li"><a href="#fulfillment-[[$index]]"><span class="label label-default">[[ma]]</span></a></li>
       </ul>
     </div>
   </section>
