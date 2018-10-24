@@ -6,10 +6,12 @@ body {
 }
 
 .bg-grey{
-  background-color: $grey-light
+  background-color: $grey-light;
 }
 
 p {
+  font-size: 17px;
+  color: #000;
   text-align: initial;
   margin: initial;
   padding-top: initial;
@@ -19,11 +21,11 @@ p {
 }
 
 a {
-  color: $red;
+  color: $yellow;
 }
 
 a:hover {
-  color: $orange;
+  color: $grey;
 }
 
 section {
@@ -38,6 +40,11 @@ section {
   font-weight: 900;
 }
 
+.container{
+  width: 100%;
+  padding-left: 80px;
+  padding-right: 80px;
+}
 
 /**
  * Color
@@ -165,7 +172,7 @@ section {
 
 
 .ct-series-a .ct-slice-donut {
-  stroke: $grey-lighter;
+  stroke: $grey-light;
 }
 
 .ct-series-b .ct-slice-donut {
@@ -219,12 +226,16 @@ section {
  */
 
 h1 {
+  font-family: 'Karla';
+  font-size: 38px;
+  color: #000;
+  font-weight: bold;
 }
 
 h2 {
   font-family: 'Fira Sans';
-  color: #424753;
-  font-size: 28px;
+  color: #000;
+  font-size: 36px;
 }
 
 h3 {
@@ -250,7 +261,7 @@ h5 {
 }
 
 .bajada {
-  font-size: 16px;
+  font-size: 22px;
   color: #000;
   max-width: 800px;
   margin: 0 auto 60px;
@@ -279,7 +290,7 @@ small {
  */
 
 #about {
-  min-height: 140px;
+  min-height: 240px;
 }
 
 
@@ -322,6 +333,11 @@ small {
 .jumbotron h1 {
   color: white;
   font-size: 50px;
+}
+
+.jumbotron h2 {
+  font-family: 'Fira Sans';
+  font-size: 38px;
 }
 
 .jumbotron p {
@@ -483,14 +499,14 @@ p.text-center.note{
 
 .label {
   cursor: pointer;
-  text-transform: uppercase;
-  letter-spacing: 1px;
   padding: 0.5em 1em .4em;
-  border-radius: 10px;
+  border-radius: 28px;
+  font-size: 18px;
 }
 
 .label-default {
-  background-color: $grey-light;
+  background-color: $grey-dark;
+  color: #FFFF;
 }
 
 .label-primary {
@@ -601,7 +617,7 @@ background-color: rgba(255, 255, 255, 0.7);
 
 .agenda-main {
   .agenda-day {
-    background-color: $grey-lighter;
+    background-color: $grey-light;
     margin-bottom: 10px;
     padding: 20px;
     li:first-child {
@@ -619,7 +635,7 @@ background-color: rgba(255, 255, 255, 0.7);
 
 .ico-intro i {
     margin-bottom: 30px;
-    color: $grey-lighter;
+    color: $grey-light;
 }
 
 .dia {
@@ -745,16 +761,16 @@ i.fa.fa-link{
 
 .panel-default>.panel-heading {
     color: $grey;
-    background-color: $grey-lighter;
-    border-color: $grey-lighter;
+    background-color: $grey-light;
+    border-color: $grey-light;
 }
 
 .panel-default {
-    border-color: $grey-lighter;
+    border-color: $grey-light;
 }
 
 .promess {
-    border-bottom: 1px solid $grey-lighter;
+    border-bottom: 1px solid $grey-light;
     margin-bottom: 30px;
     padding-bottom: 20px;
 }
@@ -764,7 +780,7 @@ i.fa.fa-link{
 }
 
 .promess .col-md-2 {
-    border-left: 1px solid $grey-lighter;
+    border-left: 1px solid $grey-light;
 }
 
 .color-high{
@@ -825,7 +841,7 @@ i.fa.fa-link{
 }
 
 #fulfillment .ct-series-b .ct-slice-donut {
-  stroke: $grey-lighter;
+  stroke: $grey-light;
 }
 
 .fulfillment-box {
@@ -853,7 +869,7 @@ i.fa.fa-link{
 /*MODAL*/
 
 .modal-header {
-    background-color: $grey-lighter;
+    background-color: $grey-light;
     border-radius: 5px 5px 0 0;
     border-bottom: none;
 }
@@ -871,7 +887,7 @@ i.fa.fa-link{
 
 
 .visual-main {
-  background-color: $grey-lighter;
+  background-color: $grey-light;
   margin-bottom: 10px;
   padding: 20px;
 }

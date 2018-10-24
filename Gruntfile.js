@@ -146,5 +146,4 @@ module.exports = function(grunt) {
     });
     grunt.registerTask("UpdateEverything", ['UpdateData', 'gitadd', 'gitcommit', 'gitpull', 'gitpush'])
 
-
 };
