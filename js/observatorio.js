@@ -22,14 +22,14 @@ app.controller('MainController', ["$scope", "$http", "$timeout", "$filter", func
           d.fulfillment_macro_area = 0;
         }
         d.fulfillment_macro_area = $filter('number')(d.fulfillment_macro_area, 0)
-        var label = [d.fulfillment_macro_area + "%"," "];
+        var label = [d.fulfillment_macro_area + "%", " "];
         if (d.mensaje) {
           label = [d.mensaje, 'lanzamiento'];
           classname = 'only-txt';
           $('.ct-chart-' + d.id).addClass(classname);
         }
         new Chartist.Pie('.ct-chart-' + d.id, {
-          labels: [label, " "],
+          labels: label,
           series: [parseInt(100),parseInt(d.fulfillment_macro_area)]
         }, {
           donut: true,
