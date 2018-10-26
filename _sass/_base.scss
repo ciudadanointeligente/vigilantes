@@ -317,7 +317,7 @@ small {
   margin-bottom: 0px;
   background-image: url(../img/header2.png);
   background-size: cover;
-  height: 410px;
+  height: 405px;
 }
 
 #summary-graphs .ct-series-a .ct-slice-donut {
@@ -326,6 +326,10 @@ small {
 
 #summary-graphs .ct-label {
   fill: #000;
+}
+
+#summary .ct-label{
+  fill: #fff;
 }
 
 #summary-graphs .notabajada {
