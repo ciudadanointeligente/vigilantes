@@ -247,7 +247,7 @@ h1 {
 }
 
 h2 {
-  font-family: 'Fira Sans';
+  font-family: 'Poppins';
   color: #000;
   font-size: 36px;
 }
@@ -278,7 +278,7 @@ h5 {
   font-size: 22px;
   color: #000;
   max-width: 800px;
-  margin: 0 auto 60px;
+  padding-top: 40px;
 }
 
 .destacado {
@@ -303,7 +303,7 @@ small {
  */
 
 #about {
-  min-height: 240px;
+  min-height: 300px;
 }
 
 
@@ -312,11 +312,12 @@ small {
   background-position: center;
   background-repeat: no-repeat;
   background-blend-mode: multiply;
-  padding-top: 170px;
+  padding-top: 50px;
   padding-bottom: 0px;
   margin-bottom: 0px;
   background-image: url(../img/header2.png);
-  min-height: 410px;
+  background-size: cover;
+  height: 410px;
 }
 
 
@@ -336,11 +337,12 @@ small {
     background-position: center;
     background-repeat: no-repeat;
     background-blend-mode: multiply;
-    min-height: 550px;
+    height: 500px;
     padding-top: 170px;
     padding-bottom: 0px;
     margin-bottom: 0px;
     background-image: url(../img/header4.png);
+    background-size: cover;
 }
 
 .jumbotron h1 {
@@ -349,7 +351,7 @@ small {
 }
 
 .jumbotron h2 {
-  font-family: 'Fira Sans';
+  font-family: 'Poppins';
   font-size: 38px;
 }
 
@@ -414,10 +416,8 @@ p.text-center.note{
 }
 
 .chart-total .totalbajada{
-    text-transform: uppercase;
     text-align: center;
-    margin-top: 123px;
-    font-size: 9px;
+    font-size: 20px;
     font-weight: 600;
 }
 
@@ -683,6 +683,40 @@ background-color: rgba(255, 255, 255, 0.7);
     margin-top: 88px;
     font-size: 9px;
     font-weight: 600;
+}
+
+#summary .chart-total .textototal{
+    text-align: center;
+    font-family: 'Karla';
+    margin-top: 150px;
+    margin-bottom: -182px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+}
+
+#summary .chart-total {
+  padding-top: 50px;
+}
+
+#summary .ct-label {
+  color: #fff;
+}
+
+#summary .notatotal {
+  font-weight: bold;
+  font-size: 20px;
+  color: #fff;
+  padding-top: 57px;
+}
+
+#summary .mark-summary {
+  padding-top: 105px;
+}
+
+
+.chart-total {
+  padding-top: 20px;
 }
 
 #fulfillment .chart-total .textototal{
@@ -997,33 +1031,7 @@ footer .col-md-4{
   }
 }
 
-@media screen and (max-width: 991px) {
-  #welcome{
-    background-image: none;
-    background-color: rgb(244,152,71);
-    min-height: 900px;
-  }
-  .jumbotron .textototal{
-    text-transform: uppercase;
-    text-align: center;
-    margin-top: -19px;
-    margin-bottom: -178px;
-    font-size: 9px;
-    font-weight: 600;
-  }
-  .jumbotron .notatotal{
-    margin-bottom: 40px;
-  }
-  .chart-total:after {
-    display: none;
-  }
-  .panel.panel-deafult.leyenda{
-    display: none;
-  }
-  .panel.panel-deafult.leyenda-movil{
-    display: block;
-  }
-}
+
 
 @media screen and (max-width: 980px) {
   .ct-label {
@@ -1064,16 +1072,16 @@ ul.nav.navbar-nav.navbar-right{
 }
 
 
-@media screen and (max-width: 600px) {
-  #welcome {
-    background-position: center;
-    background-position-y: -120px;
-    min-height: 1150px;
-  }
-  .jumbotron .notatotal{
-    margin-bottom: 70px;
-  }
-}
+// @media screen and (max-width: 600px) {
+//   #welcome {
+//     background-position: center;
+//     background-position-y: -120px;
+//     min-height: 1150px;
+//   }
+//   .jumbotron .notatotal{
+//     margin-bottom: 70px;
+//   }
+// }
 
 @media screen and (max-width: 500px) {
   .progress {
