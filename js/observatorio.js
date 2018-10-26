@@ -29,7 +29,7 @@ app.controller('MainController', ["$scope", "$http", "$timeout", "$filter", func
           $('.ct-chart-' + d.id).addClass(classname);
         }
         new Chartist.Pie('.ct-chart-' + d.id, {
-          labels: label,
+          labels: [label, " "],
           series: [parseInt(100),parseInt(d.fulfillment_macro_area)]
         }, {
           donut: true,
