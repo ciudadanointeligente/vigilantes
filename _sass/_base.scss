@@ -336,6 +336,7 @@ small {
   margin-top: 0px;
 }
 
+
  /**
   * Welcome
   */
@@ -1122,11 +1123,33 @@ a.anchor {
 }
 
 @media  only  screen  and (min-width: 320px)  and (max-width: 764px)  {
-.dataviz-tablet,  .dataviz-desktop {
-display:  none;}}
+  .dataviz-tablet,  .dataviz-desktop {
+    display:  none;
+  }
+  .col-xs-12.vcenter{
+    margin-bottom: 0px;
+  }
+  .leyenda-desktop{
+    display: none;
+  }
+  .label-default{
+    background-color: transparent;
+    color: $yellow;
+    white-space: inherit;
+  }
+}
+
+
 @media  only  screen  and (min-width: 765px)  and (max-width: 899px)  {
-.dataviz-mobile,  .dataviz-desktop {
-display:  none;}}
+  .dataviz-mobile,  .dataviz-desktop {
+    display:  none;
+  }
+  .label-default{
+    background-color: transparent;
+    color: $yellow;
+    white-space: inherit;
+  }
+}
 @media  only  screen  and (min-width: 900px)  {
 .dataviz-mobile,  .dataviz-tablet {
 display:  none;}}
