@@ -2,7 +2,8 @@ body {
   font-family: 'Karla', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: $grey;
+  font-size: 17px;
+  color: #000;
 }
 
 .bg-grey{
@@ -334,6 +335,16 @@ small {
 
 #summary-graphs .notabajada {
   margin-top: 0px;
+}
+
+// about
+
+.img-logo-horizontal{
+  width: 100%;
+}
+
+.img-logo-vertical{
+  height: 80px;
 }
 
 
