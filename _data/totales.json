@@ -2,8 +2,8 @@
     {
         "id": 1,
         "macro_area": "Protección Universal",
-        "quality_macro_area": "3.888",
-        "fulfillment_macro_area": 51
+        "quality_macro_area": "#REF!",
+        "fulfillment_macro_area": null
     },
     {
         "id": 2,
