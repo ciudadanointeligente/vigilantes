@@ -8,13 +8,13 @@
     {
         "id": 2,
         "macro_area": "Protección a niños, niñas y adolescentes en riesgo de vulneración de derechos",
-        "quality_macro_area": "4.000",
-        "fulfillment_macro_area": 60.8
+        "quality_macro_area": "0.767",
+        "fulfillment_macro_area": 7.7
     },
     {
         "id": 3,
         "macro_area": "Protección y restitución de derechos a niños, niñas y adolescentes que han sido vulnerados",
-        "quality_macro_area": "3.779",
-        "fulfillment_macro_area": 59.3
+        "quality_macro_area": "1.240",
+        "fulfillment_macro_area": 27.2
     }
 ]
