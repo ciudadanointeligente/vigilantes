@@ -1,14 +1,14 @@
 # site settings
 title: Vigilantes
-email: prensa@ciudadanointeligente.org
-description: 'Vigilantes.'
+email: contacto@paralaconfianza.org
+description: 'Vigilantes por la Infancia.'
 baseurl: '//ciudadanointeligente.org/vigilantes/' # the subpath of your site, e.g. /blog/
 url: 'https://ciudadanointeligente.org/vigilantes' # the base hostname & protocol for your site
 analytics: 'UA-41822715-9' # google analytics tracking code
 twitter_username: ciudadanoi
-launched: true
+launched: false
 # build settings
 markdown: kramdown
 # notas y cosas finales
-final_mark: 4.5
-final_percentage: 50
+final_mark: 1.3
+final_percentage: 26

@@ -175,17 +175,16 @@ section {
 }
 
 .sticky .brand {
-  background: url(../img/logo-amarillo.png) no-repeat;
+  background: url(../img/logo-vigilantes-amarillo.png) no-repeat;
   width: 185px;
   height: 53px;
 }
 
 .fixed .brand {
-  background: url(../img/logo-negro.png) no-repeat;
+  background: url(../img/logo-vigilantes-negro.png) no-repeat;
   height: 53px;
   width: 185px;
 }
-
 
 .ct-series-a .ct-slice-donut {
   stroke: #FFF;
@@ -353,9 +352,9 @@ small {
   */
 
 #welcome {
-    background-position: center;
-    background-repeat: no-repeat;
-    max-height: 780px;
+  background-position: center;
+  background-repeat: no-repeat;
+  max-height: 780px;
 }
 
 
@@ -984,6 +983,10 @@ footer a {
   /*color: $red;*/
 }
 
+footer p {
+  font-size: 15px;
+}
+
 footer img {
   max-width: 220px;
 }
@@ -1131,6 +1134,12 @@ a.anchor {
     position: relative;
     top: -120px;
     visibility: hidden;
+}
+
+// FOOTER
+
+.logo-footer{
+  padding: 10px;
 }
 
 @media  only  screen  and (min-width: 320px)  and (max-width: 764px)  {
