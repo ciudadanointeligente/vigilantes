@@ -1,12 +1,11 @@
 # site settings
 title: Vigilantes
-email: contacto@paralaconfianza.org
-description: 'Vigilantes por la Infancia.'
+email: vigilantesporlainfancia@gmail.com
+description: 'Vigilantes por la Infancia es una plataforma que le permite a la ciudadanía ejercer control social sobre tomadores y tomadoras de decisiones en materia de infancia. Ésta contiene un análisis de los compromisos adquiridos en el Acuerdo Nacional por la Infancia, y mide el nivel de cumplimiento de las distintas propuestas realizadas por el actual Gobierno.'
 baseurl: '//ciudadanointeligente.org/vigilantes/' # the subpath of your site, e.g. /blog/
 url: 'https://ciudadanointeligente.org/vigilantes' # the base hostname & protocol for your site
-analytics: 'UA-41822715-9' # google analytics tracking code
-twitter_username: ciudadanoi
-launched: false
+analytics: 'UA-102841648-2' # google analytics tracking code
+launched: true
 # build settings
 markdown: kramdown
 # notas y cosas finales

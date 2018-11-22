@@ -511,8 +511,8 @@ p.text-center.note{
 }
 
 .btn-primary {
-  background-color: white;
-  color: $orange;
+  background-color: $yellow;
+  color: white;
 }
 
 .btn-primary:hover{
@@ -616,7 +616,7 @@ background-color: rgba(255, 255, 255, 0.7);
       height: 200px;
     }
     div:nth-child(4) {
-      background-color: $orange;
+      background-color: $yellow;
       height: 200px;
     }
     div:nth-child(5) {
@@ -1134,6 +1134,23 @@ a.anchor {
     position: relative;
     top: -120px;
     visibility: hidden;
+}
+
+// lanzamiento
+
+/*FORM*/
+
+label {
+  width: 100%;
+}
+
+label input {
+  width: 100%;
+}
+
+.form-container {
+ margin-top: 5px;
+ margin-bottom: 5px;
 }
 
 // FOOTER

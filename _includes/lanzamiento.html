@@ -22,25 +22,29 @@
 
     </div>
     <div class="col-md-6 col-sm-12">
-      <h4 class=""> ¡Inscribete! </h4>
-
+      <h4 class=""> ¡Inscrébete! </h4>
 
       <form method="POST" action="https://formspree.io/observatorio@paralaconfianza.com" class="form">
+        <div class="form-container">
+          <p>Tu Nombre (requerido)</p>
+          <label class="w-100"> <input type="text" placeholder="Nombre" name="name" required> </label>
+        </div>
+        <div class="form-container">
+          <p> Tu Organización (requerido) </p>
+          <label class="w-100">
+              <input type="text" placeholder="Organización" name="organizacion" required>
+          </label>
+        </div>
+        <div class="form-container">
+          <p>Tu email (requerido)</p>
 
-        <label class="w-100">
-            Tu Nombre (requerido)
-            <input type="text" placeholder="Tu Nombre" name="name" required>
-        </label>
-        <label class="w-100">
-            Tu Organización (requerido)
-            <input type="text" placeholder="Tu Organización" name="organizacion" required>
-        </label>
-        <label class="w-100">
-            Tu email (requerido)
-            <input type="email" placeholder="nombre@email.com" name="_replyto" required>
-        </label>
-
-        <input type="submit" class="btn btn-primary" name="submit" value="Enviar">
+          <label class="w-100">
+            <input type="email" placeholder="Email" name="_replyto" required>
+          </label> <br>
+        </div>
+        <div class="text-right">
+          <input type="submit" class="btn btn-primary" name="submit" value="Enviar">
+        </div>
     </form>
 
 
