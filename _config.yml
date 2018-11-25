@@ -5,7 +5,7 @@ description: 'Vigilantes por la Infancia es una plataforma que le permite a la c
 baseurl: '//vigilantesporlainfancia.cl/' # the subpath of your site, e.g. /blog/
 url: 'https://vigilantesporlainfancia.cl' # the base hostname & protocol for your site
 analytics: 'UA-102841648-2' # google analytics tracking code
-launched: true
+launched: false
 # build settings
 markdown: kramdown
 # notas y cosas finales
