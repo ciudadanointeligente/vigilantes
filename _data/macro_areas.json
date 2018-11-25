@@ -2,19 +2,19 @@
     {
         "id": 0,
         "macro_area": "Protección Universal",
-        "quality_macro_area": "2.046",
-        "fulfillment_macro_area": 47.1
+        "quality_macro_area": "2.135",
+        "fulfillment_macro_area": 45.9
     },
     {
         "id": 1,
         "macro_area": "Protección a niños, niñas y adolescentes en riesgo de vulneración de derechos",
-        "quality_macro_area": "1.244",
-        "fulfillment_macro_area": 11.2
+        "quality_macro_area": "1.756",
+        "fulfillment_macro_area": 11.6
     },
     {
         "id": 2,
         "macro_area": "Protección y restitución de derechos a niños, niñas y adolescentes que han sido vulnerados",
-        "quality_macro_area": "1.330",
-        "fulfillment_macro_area": 27.6
+        "quality_macro_area": "2.299",
+        "fulfillment_macro_area": 28.1
     }
 ]
