@@ -41,19 +41,19 @@
     ],
     "Protección y restitución de derechos a niños, niñas y adolescentes que han sido vulnerados": [
         {
+            "category": "Nuevo trato con Poder Judicial"
+        },
+        {
             "category": "Nueva institucionalidad para la infancia"
         },
         {
             "category": "Representación jurídica"
         },
         {
-            "category": "Nuevo trato con Poder Judicial"
+            "category": "Familias de acogida"
         },
         {
             "category": "Programas ambulatorios"
-        },
-        {
-            "category": "Familias de acogida"
         },
         {
             "category": "Mejorar el cuidado residencial"
@@ -62,10 +62,13 @@
             "category": "Financiamiento al sistema de cuidado alternativo"
         },
         {
+            "category": "Adopción"
+        },
+        {
             "category": "Inimputables"
         },
         {
-            "category": "Adopción"
+            "category": "Cambios y mejoras en Sename actual"
         },
         {
             "category": "Cuidado residencial para personas con discapacidad en situación de dependencia"
@@ -83,13 +86,10 @@
             "category": "Apoyo a las familias para promover la reunificación familiar"
         },
         {
-            "category": "Cambios y mejoras en Sename actual"
+            "category": "Niños y niñas en situación de calle"
         },
         {
             "category": "Salud mental"
-        },
-        {
-            "category": "Niños y niñas en situación de calle"
         },
         {
             "category": "Acompañamiento al Acuerdo Nacional por la Infancia"
