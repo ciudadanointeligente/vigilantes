@@ -80,9 +80,6 @@
             "category": "Propuestas a integrar en el PDL que crea el Servicio de Protección Especializada"
         },
         {
-            "category": "Propuestas a integrar en el PDL Servicio de Reinserción Juvenil"
-        },
-        {
             "category": "Apoyo a las familias para promover la reunificación familiar"
         },
         {
@@ -93,6 +90,11 @@
         },
         {
             "category": "Acompañamiento al Acuerdo Nacional por la Infancia"
+        }
+    ],
+    "": [
+        {
+            "category": "Propuestas a integrar en el PDL Servicio de Reinserción Juvenil"
         }
     ]
 }
