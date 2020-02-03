@@ -1989,29 +1989,6 @@
             "destacado": "0"
         }
     ],
-    "#REF!": [
-        {
-            "id": "93",
-            "macro_area": "#REF!",
-            "category": "#REF!",
-            "promess": "#REF!",
-            "description": "#REF!",
-            "quality": "#REF!",
-            "fulfillment": "#REF!",
-            "ponderator": "#REF!",
-            "readmore_fulfillment": "#REF!",
-            "readmore_quality": "#REF!",
-            "quality_cat": "#REF!",
-            "quality_macro_area": "3.111",
-            "quality_total": "3.202",
-            "fulfillment_cat": "#REF!",
-            "fulfillment_macro_area": "0.500",
-            "fulfillment_total": "0.545",
-            "quality_pond": "#REF!",
-            "fulfillment_pond": "#REF!",
-            "destacado": "#REF!"
-        }
-    ],
     "Acompañamiento al Acuerdo Nacional por la Infancia": [
         {
             "id": "94",
