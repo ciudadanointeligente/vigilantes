@@ -19,7 +19,7 @@
     "grunt-git": "~0.3.7",
     "grunt-http": "^2.3.1",
     "request": "^2.87.0",
-    "tabletop": "^1.5.2"
+    "tabletop": "^1.6.3"
   },
   "devDependencies": {
     "grunt": "^1.0.3"
